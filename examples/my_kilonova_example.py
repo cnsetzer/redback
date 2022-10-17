@@ -21,7 +21,7 @@ data = redback.get_data.get_kilonova_data_from_open_transient_catalog_data(
 )
 # creates a GRBDir with GRB
 kilonova = redback.kilonova.Kilonova.from_open_access_catalogue(
-    name=kne, data_mode="flux_density", active_bands=["u", "g", "r", "i", "z", "y"],
+    name=kne, data_mode="flux", active_bands=["u", "g", "r", "i", "z", "y"],
 )
 EOS = "sfho"
 EOS_path = "/cfs/data/chse9649/input_data/kne_data/eos_data/"
